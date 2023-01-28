@@ -1,0 +1,31 @@
+{
+  "name": "node.js-clean-architecture-sample",
+  "version": "1.0.0",
+  "description": "Sample Implementation of Node.js Clean Architecture",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcjc29/Node.js-Clean-Architecture-Sample.git"
+  },
+  "author": "Dureksha Wasala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcjc29/Node.js-Clean-Architecture-Sample/issues"
+  },
+  "homepage": "https://github.com/dcjc29/Node.js-Clean-Architecture-Sample#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.16",
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
