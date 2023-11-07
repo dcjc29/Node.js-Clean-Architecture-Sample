@@ -1,9 +1,9 @@
-import Sample from "../../models/sample.model";
+import { SampleRequest, SampleResponse } from "../../models/sample.model";
 
 export interface SampleRepository {
-  find(query: object): Promise<Sample[] | []>;
-  findOne(id: string): Promise<Sample | null>;
-  create(data: Sample): Promise<Sample>;
-  update(id: string, data: Sample): Promise<Sample | null>;
+  find(query: object): Promise<SampleResponse[] | []>;
+  findOne(id: string): Promise<SampleResponse | null>;
+  create(data: SampleRequest): Promise<void>;
+  update(id: string, data: SampleRequest): Promise<void>;
   delete(id: string): Promise<void>;
 }
