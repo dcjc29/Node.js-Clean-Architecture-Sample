@@ -1,7 +1,8 @@
-type Sample = {
-  id: string;
-  title: string;
-  status: string;
-};
+export interface SampleRequest{
+   title: string;
+}
 
-export default Sample;
+export interface SampleResponse{
+  id:string;
+  title: string;
+}

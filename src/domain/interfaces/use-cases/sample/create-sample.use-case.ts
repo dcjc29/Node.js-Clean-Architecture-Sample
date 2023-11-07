@@ -1,5 +1,5 @@
-import Sample from "../../../models/sample.model";
+import { SampleRequest } from "../../../models/sample.model";
 
-export interface GetAllSamplesUseCase { 
-    execute(data:Sample): Promise<Sample>; 
+export interface CreateSampleUseCase { 
+    execute(data:SampleRequest): Promise<void>; 
 }
